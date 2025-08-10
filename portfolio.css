@@ -1,50 +1,81 @@
-*{
+* {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
-.main{
-    background-image: url(background.jpg); background-repeat: repeat;height: 5000px;width: 100%;
-    background-size: cover;height: 100vh; position: relative;font-family: sans-serif;
+.main {
+    background-image: url(background.jpg);
+    background-repeat: repeat;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
 }
-.navbar{
- padding: 50px 0;   width: 86%; display:flex ;margin:auto ;align-items: right;justify-content: right;
+
+.navbar {
+    padding: 50px 0;
+    width: 86%;
+    display: flex;
+    margin: auto;
+    align-items: right;
+    justify-content: right;
 }
-h2{
-   font-size:45px;
+
+h2 {
+    font-size: 45px;
 }
-ul{
+
+ul {
     margin-top: -2%;
 }
-ul li{
-    list-style: none;display: inline-block;padding: 10px 16px;
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
 }
-ul li a{
-  font-size: 16px; font-weight: bold; text-decoration: none;color: rgb(234, 11, 8);
-  margin-top: -3%;transition:.4s ease ; 
+
+ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(234, 11, 8);
+    margin-top: -3%;
+    transition: .4s ease;
 
 }
-ul li a,:hover{
-    color:rgb(196, 31, 196);
+
+ul li a,
+:hover {
+    color: rgb(196, 31, 196);
 }
-span{
+
+span {
     color: blueviolet;
 }
-.intro{
-    color:red;
+
+.intro {
+    color: red;
 }
-.info{
-    margin:7% ;margin-top: 6%;
+
+.info {
+    margin: 7%;
+    margin-top: 6%;
 }
-.info h1{
+
+.info h1 {
     font-size: 65px;
-    color:brown;
+    color: brown;
 }
-.info h3{
-    font-size : 18px;
-    letter-spacing: 1px; 
+
+.info h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
     line-height: 24px;
 }
+
 /* hire{
     text-decoration: none;
     color: cadetblue;
@@ -54,7 +85,7 @@ span{
     border-radius: 10px;
     display: inline-block;
 } */
-.info a{
+.info a {
     text-decoration: none;
     color: rgb(154, 214, 42);
     background-color: rgb(0, 0, 0);
@@ -63,41 +94,47 @@ span{
     border-radius: 10px;
     display: inline-block;
     /* margin:7% ;margin-top: 6%; */
-    transition:  .4s ease;
+    transition: .4s ease;
 
 }
-.info a:hover{
+
+.info a:hover {
     background: rgb(209, 59, 179);
-} 
-.image{
-    width:30%;
-    height:75%;
+}
+
+.image {
+    width: 30%;
+    height: 75%;
     position: fixed;
     right: 100px;
     bottom: 0;
 }
-.image img{
+
+.image img {
 
     border: 3px solid rgb(10, 227, 151);
-border-radius: 50px;
-padding: 0px;
+    border-radius: 50px;
+    padding: 0px;
 
 }
 
-.image:haver .boy{
+.image:haver .boy {
     left: 55%;
 }
-.icons a{
+
+.icons a {
     text-decoration: none;
     color: #0000;
 }
-.icons ion-icon{
-  margin-left: 7%;
-    color:#ff000000;
+
+.icons ion-icon {
+    margin-left: 7%;
+    color: #ff000000;
     margin-right: -60px;
     font-size: 40px;
 
 }
-.icons ion-icon:haver{
+
+.icons ion-icon:haver {
     color: rgb(59, 174, 209);
 }
